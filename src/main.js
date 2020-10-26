@@ -3,6 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+//导入element-ui，以及样式、
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css';
+
+//全局注册
+Vue.use(ElementUI)
 
 Vue.config.productionTip = false
 
